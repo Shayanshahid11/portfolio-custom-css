@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+           
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" >Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>M.shayan khan </h2>
+            <p> Hello! I am a student at GIAIC, pursuing a course in Artifical Intelligence, Web 3.0, Metaverse.
+                passionate about technology and constantly learning new skills to stay up-to-date with the latest innovations.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1. Technologies used: HTML, CSS, typescript.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2. Technologies used: HTML, CSS,Javascript.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project4.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>Description of project 3. Technologies used: HTML,CSS,Typescript, Javascript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio | All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
